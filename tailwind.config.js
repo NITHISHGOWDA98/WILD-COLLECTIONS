@@ -12,9 +12,12 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      boxShadow: {
+        'bottom': '0 35px 60px -15px #a3e635',
+      },
     },
-    colors:{
-      'primary':'#60a5fa',
+    colors: {
+      'primary': '#60a5fa',
       'danger': '#ef4444',
       'header': '#cffafe',
       'navbar': '#67e8f9',
@@ -27,9 +30,6 @@ module.exports = {
       'white': '#f8fafc',
       'black': '#1a2e05',
     },
-    boxshadow:{
-      'bottom': '0 35px 60px -15px #a3e635',
-    }
   },
   plugins: [],
 };
