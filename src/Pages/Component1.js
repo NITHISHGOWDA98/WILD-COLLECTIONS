@@ -22,7 +22,7 @@ const Component1 = () => {
         <div className='flex flex-col h-screen overflow-y-auto  bg-black'>
             <div className='flex h-16 justify-between border-b border-b-[#ffffff] bg-black text-white shadow-lg shadow-purple  '>
                 <div className='flex items-center justify-center text-3xl '>
-                    <GiTigerHead className='flex justify-center items-center m-2 lg:ml-10 m-4 h-12 w-10' />
+                    <GiTigerHead className='flex justify-center items-center lg:ml-10 m-4 h-12 w-10' />
                     <h1 className='lg:text-3xl text-2xl'>WILD COLLECTIONS</h1>
                 </div>
 
